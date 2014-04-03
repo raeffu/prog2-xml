@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bookstore-externalDTD.xml -->
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd">
+<bookstore>
+  <book ISBN="0123456001">
+    <category>Programming</category>
+    <year>2012</year>
+    <edition>7</edition>
+    <price>19.99</price>
+    <title>Java For Dummies</title>
+    <author>Max Meier</author>
+  </book>
+  <book ISBN="0123456002">
+    <title>More Java For Peoples</title>
+    <author>Smart Gzu</author>
+    <category>Programming</category>
+    <year>2001</year>
+    <price>25.99</price>
+  </book>
+  <book ISBN="0123456010">
+    <title>The Complete Guide to Boxing</title>
+    <author>Bill Bone</author>
+    <author>Kurt Face</author>
+    <author>Eva Sand</author>
+    <category>Boxing</category>
+    <category>Sport</category>
+    <language>English</language>
+    <year>2010</year>
+    <edition>2</edition>
+    <price>49.99</price>
+  </book>
+</bookstore>

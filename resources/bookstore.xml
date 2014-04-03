@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:bookStore xmlns:ns2="ch.leafit.xml.jaxb.booksample">
+    <bookList>
+        <book>
+            <author>Friedrich Duerrenmatt</author>
+            <title>Der Verdacht</title>
+            <publisher>Wander</publisher>
+            <isbn>999-0061854736</isbn>
+        </book>
+        <book>
+            <author>Jean De Motta</author>
+            <title>The man and the see</title>
+            <publisher>Rororo</publisher>
+            <isbn>912-3832223457</isbn>
+        </book>
+        <book>
+            <author>Walt Disney</author>
+            <title>Donald Duck</title>
+            <publisher>Rororo</publisher>
+            <isbn>112-3855223457</isbn>
+        </book>
+    </bookList>
+    <location>Mainstreet Bienne</location>
+    <name>Luethy Bookstore</name>
+</ns2:bookStore>

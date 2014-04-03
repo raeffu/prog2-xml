@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://raeffu.ch/AddressTypes/" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://raeffu.ch/AddressTypes/">
+    <complexType name="AddressType">
+    	<sequence>
+    		<element name="street" type="string"></element>
+    		<element name="street_nr" type="string"></element>
+    		<element name="postalcode" type="string"></element>
+    		<element name="city" type="string"></element>
+    		<element name="country" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

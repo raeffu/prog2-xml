@@ -1,0 +1,21 @@
+<persons>
+	<person>
+		<name>Hans Meier</name>
+		<region>Bern</region>
+		<salary>12345</salary>
+		<profession>Professor</profession>
+	</person>
+	<person>
+		<name>Eva Adam</name>
+		<region>Biel</region>
+		<salary>4444</salary>
+		<profession>Teacher</profession>
+	</person>
+	<person>
+		<name>Martin Gugger</name>
+		<region>Thun</region>
+		<salary>55555</salary>
+		<profession>Director</profession>
+	</person>
+</persons>
+

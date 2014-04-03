@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<child1 id="1">
+		<first_name>Max</first_name>
+		<last_name>Mueller</last_name>
+		<date_of_birth>12.12.2012</date_of_birth>
+		<salary>70000</salary>
+	</child1>
+	<child2 id="2">
+		<first_name>Marie</first_name>
+		<last_name>Mueller</last_name>
+		<date_of_birth>12.11.2010</date_of_birth>
+		<salary>78000</salary>
+	</child2>
+</root>

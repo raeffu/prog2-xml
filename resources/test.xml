@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Persons xmlns:tns="www.raeffu.ch"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.raeffu.ch test.xsd ">
+	
+	<tns:Person>
+		<first_name>first_name</first_name>
+		<last_name>last_name</last_name>
+		<address>
+			<street>street</street>
+			<city>city</city>
+			<country_code>country_code</country_code>
+		</address>
+	</tns:Person>
+</tns:Persons>

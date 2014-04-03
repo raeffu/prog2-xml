@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="www.raeffu.ch" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="www.raeffu.ch" elementFormDefault="qualified">
+	<element name="Persons" type="tns:PersonsType" />
+
+    <complexType name="PersonsType">
+    	<sequence>
+    		<element ref="tns:Person" maxOccurs="unbounded" minOccurs="1"/>
+    	</sequence>
+    </complexType>
+    
+    <element name="Person" type="tns:PersonType"/>
+
+    <complexType name="PersonType">
+    	<sequence>
+    		<element name="first_name" type="string"
+    			maxOccurs="unbounded" minOccurs="1"/>
+    		
+    		<element name="last_name" type="string"
+    			maxOccurs="unbounded" minOccurs="1"/>
+    		
+    		<element name="address" type="tns:AddressType" maxOccurs="1"
+    			minOccurs="0"/>
+    		
+    		<element name="gender">
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="Male"/>
+    					<enumeration value="Female"/>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    	</sequence>
+
+    	<attribute name="id" type="int"/>
+    	<attribute ref="tns:GID"/>
+    </complexType>
+
+    <complexType name="AddressType">
+    	<sequence>
+    		<element name="street" type="string"/>
+    		<element name="city" type="string"/>
+    		<element name="country_code" type="string"/>
+    	</sequence>
+    </complexType>
+
+    <attribute name="GID" type="int"/>
+</schema>

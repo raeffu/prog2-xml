@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:tns="http://raeffu.ch/ManufacturerTypes/" 
+targetNamespace="http://raeffu.ch/ManufacturerTypes/" xmlns:Q1="http://raeffu.ch/AddressTypes/">
+
+    <import schemaLocation="AddressTypes.xsd" namespace="http://raeffu.ch/AddressTypes/"></import>
+    <complexType name="ManufacturerType">
+    	<sequence>
+    		<element name="address" type="Q1:AddressType" maxOccurs="3"
+    			minOccurs="1">
+    		</element>
+    	</sequence>
+    	<attribute name="id" type="int"></attribute>
+    </complexType>
+
+    <complexType name="ComputerManufacturerType">
+    	<complexContent>
+    		<extension base="tns:ManufacturerType">
+    			<sequence>
+    				<element name="computer_manufacturer" maxOccurs="1"
+    					minOccurs="1" type="tns:ComputerManufacturerSelectionType">
+
+    				</element>
+    			</sequence>
+    		</extension>
+    	</complexContent>
+    </complexType>
+
+
+    <simpleType name="ComputerManufacturerSelectionType">
+    	<restriction base="string">
+    	</restriction>
+    </simpleType>
+
+    <complexType name="MainboardManufacturerType"></complexType>
+</schema>

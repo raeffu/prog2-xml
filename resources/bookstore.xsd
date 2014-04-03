@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" targetNamespace="ch.leafit.xml.jaxb.booksample"
+	xmlns:ns2="ch.leafit.xml.jaxb.booksample">
+	<xs:element name="bookStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="bookList" form="unqualified">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="book" form="unqualified">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="author" form="unqualified" type="xs:string" />
+										<xs:element name="title" form="unqualified" type="xs:string" />
+										<xs:element name="publisher" form="unqualified"
+											type="xs:NCName" />
+										<xs:element name="isbn" form="unqualified" type="xs:NMTOKEN" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="location" form="unqualified" type="xs:string" />
+				<xs:element name="name" form="unqualified" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

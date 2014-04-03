@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/Computers/"
+	targetNamespace="http://www.example.org/Computers/">
+	<element name="computers" type="tns:ComputersType"></element>
+
+	<complexType name="ComputersType">
+		<sequence>
+			<element name="computer" type="tns:ComputerType" maxOccurs="unbounded"
+				minOccurs="0"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="ComputerType">
+		<sequence>
+			<element name="mainboard" type="string" maxOccurs="1"
+				minOccurs="1"></element>
+			<element name="memory" type="string" maxOccurs="unbounded"
+				minOccurs="1"></element>
+			<element name="cpu" type="string" maxOccurs="unbounded"
+				minOccurs="1"></element>
+		</sequence>
+		<attribute name="serial_number" type="string"></attribute>
+	</complexType>
+</schema>

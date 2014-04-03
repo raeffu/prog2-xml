@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/ComponentTypes/" targetNamespace="http://www.example.org/ComponentTypes/">
+    <complexType name="ComponentType">
+    	<sequence>
+    		<element name="component_description" type="string"></element>
+    	</sequence>
+    	<attribute name="serial_nr" type="string"></attribute>
+    	<attribute name="id" type="int"></attribute>
+    </complexType>
+</schema>

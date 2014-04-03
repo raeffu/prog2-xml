@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:persons xmlns:tns="http://www.leafit.ch/PersonSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.leafit.ch/PersonSchema PersonSchema.xsd ">
+  <tns:person personNbr="0">
+    <tns:first_name>adam</tns:first_name>
+    <tns:last_name>eva</tns:last_name>
+  </tns:person>
+    <tns:person personNbr="1">
+    <tns:first_name>eva</tns:first_name>
+    <tns:last_name>adam</tns:last_name>
+  </tns:person>
+    <tns:person personNbr="2">
+    <tns:first_name>max</tns:first_name>
+    <tns:last_name>moritz</tns:last_name>
+  </tns:person>
+    <tns:person personNbr="3">
+    <tns:first_name>moritz</tns:first_name>
+    <tns:last_name>max</tns:last_name>
+  </tns:person>
+</tns:persons>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- addressbook.xml -->
+<address_book>
+  <person>
+     <name>Sam Small</name>
+     <tel type="mobile" preferred="yes">556677</tel>
+     <tel type="home">443355</tel>
+     <email preferred="yes">sam.small@sam.com</email>
+     <email>sam@small.com</email>
+     <address type="home">Cundy Street 77</address>
+  </person>
+  <person>
+     <name>Miller Mox</name>
+     <tel type="mobile" preferred="yes">443445</tel>
+     <tel type="office">5543333</tel>
+     <email>mox@miller.com</email>
+  </person>
+</address_book>
